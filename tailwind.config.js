@@ -2,15 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   extend: {
-    keyframes: {
-      title: {
-        '0%': {display: 'hidden'},
-        '100%': {display: 'block'}
-      }
+    colors: {
+      'black-rgba': 'rgba(0, 0, 0, 0.54)',
     },
-    animation: {
-      title: 'title 1s ease-in-out forwards'
-    }
   },
   plugins: [],
 }

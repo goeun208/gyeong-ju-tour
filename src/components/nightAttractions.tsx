@@ -19,7 +19,7 @@ const NightAttractions = () => {
     // http://apis.data.go.kr
     const getAttractionsLists = async () => {
       await axios
-        .get("http://apis.data.go.kr/5050000/theNightViewService/getTheNightView"
+        .get("/5050000/theNightViewService/getTheNightView"
         , {
           params: {
             ServiceKey: process.env.REACT_APP_API_KEY,
