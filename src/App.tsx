@@ -19,7 +19,7 @@ function App() {
 
   const getQnaLists = async () => {
     await axios
-      .get("/5050000/theNightViewService/getTheNightView"
+      .get("http://apis.data.go.kr/5050000/theNightViewService/getTheNightView"
       , {
         params: {
           ServiceKey: process.env.REACT_APP_API_KEY,
