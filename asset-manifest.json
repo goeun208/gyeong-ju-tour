@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gyeong-ju-tour/static/css/main.8f1e5915.css",
-    "main.js": "/gyeong-ju-tour/static/js/main.ac06ad18.js",
+    "main.css": "/gyeong-ju-tour/static/css/main.c2fdf0bb.css",
+    "main.js": "/gyeong-ju-tour/static/js/main.328c03bb.js",
     "static/js/787.049f1a49.chunk.js": "/gyeong-ju-tour/static/js/787.049f1a49.chunk.js",
     "static/media/cheomsungdae.jpg": "/gyeong-ju-tour/static/media/cheomsungdae.57fdfc6123988a77aebb.jpg",
     "static/media/background.jpg": "/gyeong-ju-tour/static/media/background.68664f53ea0462784a76.jpg",
@@ -25,12 +25,12 @@
     "static/media/food3.jpg": "/gyeong-ju-tour/static/media/food3.8eb3ac2842868551f7d8.jpg",
     "index.html": "/gyeong-ju-tour/index.html",
     "static/media/curve.svg": "/gyeong-ju-tour/static/media/curve.36ce4e31dbd1c54f364ae4e26451218e.svg",
-    "main.8f1e5915.css.map": "/gyeong-ju-tour/static/css/main.8f1e5915.css.map",
-    "main.ac06ad18.js.map": "/gyeong-ju-tour/static/js/main.ac06ad18.js.map",
+    "main.c2fdf0bb.css.map": "/gyeong-ju-tour/static/css/main.c2fdf0bb.css.map",
+    "main.328c03bb.js.map": "/gyeong-ju-tour/static/js/main.328c03bb.js.map",
     "787.049f1a49.chunk.js.map": "/gyeong-ju-tour/static/js/787.049f1a49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f1e5915.css",
-    "static/js/main.ac06ad18.js"
+    "static/css/main.c2fdf0bb.css",
+    "static/js/main.328c03bb.js"
   ]
 }
