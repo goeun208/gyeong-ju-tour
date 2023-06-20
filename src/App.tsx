@@ -1,13 +1,23 @@
+import FoodLists from './components/foodLists';
+import HanokIntroduce from './components/hanokIntroduce';
 import MainBanner from './components/mainBanner';
 import NightAttractions from './components/nightAttractions';
+import useMoveScroll from './hooks/useMoveScroll';
 
 
 function App() {
+
+  const element1 = useMoveScroll()
+  const element2 = useMoveScroll()
+  const element3 = useMoveScroll()
+  const element = [element1, element2, element3];
+
   return (
-    <div className="bg-black">
-      <MainBanner />
-      <h1 className='text-center text-white text-[1.5rem] md:text-[2.25rem] my-20 font-semibold'>경주의 야간 명소를 한 눈에 확인해보세요.</h1>
-      <NightAttractions />
+    <div className="bg-[#081113]">
+      <MainBanner element={element}/>
+      <FoodLists  element1={element1.element}/>
+      <NightAttractions element2={element2.element}/>
+      <HanokIntroduce element3={element3.element} />
     </div>
   );
 }
