@@ -18,7 +18,7 @@ const NightAttractions = ({element2}: any) => {
     // http://apis.data.go.kr
     const getAttractionsLists = async () => {
       await axios
-        .get("/5050000/theNightViewService/getTheNightView"
+        .get("http://apis.data.go.kr/5050000/theNightViewService/getTheNightView"
         , {
           params: {
             ServiceKey: process.env.REACT_APP_API_KEY,
@@ -44,7 +44,7 @@ const NightAttractions = ({element2}: any) => {
     data && 
     <div ref={element2}>
       <p className='text-center mt-20 text-white'>*********</p>
-      <h1 className='text-center text-white text-[1.5rem] md:text-[2.25rem] mb-20 font-semibold'>경주의 야간 명소를 한 눈에 확인해보세요.</h1>
+      <h1 className='text-center text-white text-[1.125rem] xs:text-[1.5rem] md:text-[2.25rem] mb-5 xs:mb-20 font-semibold'>경주의 야간 명소를 한 눈에 확인해보세요.</h1>
         <div className='w-[22.5rem] md:w-[45rem] xl:w-[90rem] mx-auto my-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 pb-20'>
         {data.map((item:any, index:number) => (
           <div key={index} className='w-[21.5rem] h-[25.5rem] bg-zinc-200 text-[1.125rem] text-black mx-2 my-5 pt-4 rounded cursor-pointer'>

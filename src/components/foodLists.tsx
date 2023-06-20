@@ -23,7 +23,7 @@ const FoodLists = ({ element1 }: any) => {
   const getRestaurantLists = async () => {
     await axios
       .get(
-        "/5050000/hwangridangilFoodHotPlaceService/getHwangridangilFoodHotPlace",
+        "http://apis.data.go.kr/5050000/hwangridangilFoodHotPlaceService/getHwangridangilFoodHotPlace",
         {
           params: {
             serviceKey: process.env.REACT_APP_API_KEY,
@@ -70,7 +70,7 @@ const FoodLists = ({ element1 }: any) => {
         />
       </div>
       <p className='text-center mt-20'>*********</p>
-      <h1 className='text-center text-[1.5rem] md:text-[2.25rem] mb-8 font-semibold'>경주 황리단길 인기 맛집을 둘러보세요.</h1>
+      <h1 className='text-center text-[1.125rem] xs:text-[1.5rem] md:text-[2.25rem] mb-5 xs:mb-8 font-semibold'>경주 황리단길 인기 맛집을 둘러보세요.</h1>
       <div  className='w-[22.5rem] md:w-[45rem] xl:w-[90rem] mx-auto mb-5 text-right pr-4 text-[1.125rem] font-sans font-semibold'>
         전체: <span className="text-[#DC761D]">{counts} </span>
       </div>
