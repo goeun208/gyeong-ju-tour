@@ -1,27 +1,36 @@
 {
   "files": {
-    "main.css": "/gyeong-ju-tour/static/css/main.4344803c.css",
-    "main.js": "/gyeong-ju-tour/static/js/main.7abcffe3.js",
+    "main.css": "/gyeong-ju-tour/static/css/main.8f1e5915.css",
+    "main.js": "/gyeong-ju-tour/static/js/main.ac06ad18.js",
     "static/js/787.049f1a49.chunk.js": "/gyeong-ju-tour/static/js/787.049f1a49.chunk.js",
     "static/media/cheomsungdae.jpg": "/gyeong-ju-tour/static/media/cheomsungdae.57fdfc6123988a77aebb.jpg",
     "static/media/background.jpg": "/gyeong-ju-tour/static/media/background.68664f53ea0462784a76.jpg",
     "static/media/Diphylleia-Regular.ttf": "/gyeong-ju-tour/static/media/Diphylleia-Regular.5eaee1b0df94d8746553.ttf",
     "static/media/image4.jpg": "/gyeong-ju-tour/static/media/image4.14e015196f34d92709b0.jpg",
+    "static/media/food1.jpg": "/gyeong-ju-tour/static/media/food1.8fa93c196f1db01bf95c.jpg",
+    "static/media/food6.jpg": "/gyeong-ju-tour/static/media/food6.5f4a707a3c86f37d7ffd.jpg",
     "static/media/image9.jpg": "/gyeong-ju-tour/static/media/image9.72d75078d275a68cb9a8.jpg",
     "static/media/image1.jpg": "/gyeong-ju-tour/static/media/image1.6d0fe6b6fb8f8b4010a8.jpg",
     "static/media/image8.jpg": "/gyeong-ju-tour/static/media/image8.20dec04dfdb0e82f028a.jpg",
+    "static/media/food2.jpg": "/gyeong-ju-tour/static/media/food2.e3824abc47dc9d3c0300.jpg",
     "static/media/image5.jpg": "/gyeong-ju-tour/static/media/image5.92f24153a5f4c2b76059.jpg",
+    "static/media/food4.jpg": "/gyeong-ju-tour/static/media/food4.fa0f670d60501cc832ee.jpg",
+    "static/media/food5.jpg": "/gyeong-ju-tour/static/media/food5.aa3bd0e42998a81e220e.jpg",
     "static/media/image6.jpg": "/gyeong-ju-tour/static/media/image6.137eff8dff2d3489ae7b.jpg",
     "static/media/image3.jpg": "/gyeong-ju-tour/static/media/image3.c90abeec49568172a20a.jpg",
     "static/media/image10.jpg": "/gyeong-ju-tour/static/media/image10.74859e8e1558397c2620.jpg",
     "static/media/image7.jpg": "/gyeong-ju-tour/static/media/image7.ffc4ed29da7e127640d5.jpg",
+    "static/media/food7.jpg": "/gyeong-ju-tour/static/media/food7.43878fc33f948f0ec4fa.jpg",
+    "static/media/food8.jpg": "/gyeong-ju-tour/static/media/food8.71dc6ce7a7c0a0a7732b.jpg",
+    "static/media/food3.jpg": "/gyeong-ju-tour/static/media/food3.8eb3ac2842868551f7d8.jpg",
     "index.html": "/gyeong-ju-tour/index.html",
-    "main.4344803c.css.map": "/gyeong-ju-tour/static/css/main.4344803c.css.map",
-    "main.7abcffe3.js.map": "/gyeong-ju-tour/static/js/main.7abcffe3.js.map",
+    "static/media/curve.svg": "/gyeong-ju-tour/static/media/curve.36ce4e31dbd1c54f364ae4e26451218e.svg",
+    "main.8f1e5915.css.map": "/gyeong-ju-tour/static/css/main.8f1e5915.css.map",
+    "main.ac06ad18.js.map": "/gyeong-ju-tour/static/js/main.ac06ad18.js.map",
     "787.049f1a49.chunk.js.map": "/gyeong-ju-tour/static/js/787.049f1a49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4344803c.css",
-    "static/js/main.7abcffe3.js"
+    "static/css/main.8f1e5915.css",
+    "static/js/main.ac06ad18.js"
   ]
 }
