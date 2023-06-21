@@ -14,7 +14,7 @@ function App() {
   const scrollToTop = useMoveScroll()
 
   return (
-    <div className="bg-[#081113] relative" ref={scrollToTop.element}>
+    <div className="bg-[#0b1011] relative" ref={scrollToTop.element}>
       <MainBanner element={element}/>
       <FoodLists  element1={element1.element}/>
       <NightAttractions element2={element2.element}/>

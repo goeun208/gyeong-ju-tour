@@ -50,7 +50,7 @@ const HanokIntroduce = ({element3}: any) => {
                <div key={index} className='w-[21.5rem] md:w-[29.5rem] h-[25.5rem] bg-zinc-200 text-[1.125rem] text-black ml-4 my-2 md:mx-2 rounded cursor-pointer'>
                  <div className=' w-[21.5rem] md:w-[29.5rem] h-[25.5rem] mx-auto rounded relative'>
                    <img src={hanok[index]} alt="hanok" className='absolute w-full h-full top-0 left-0 z-0 rounded-t object-cover' loading='lazy' decoding='async'/>
-                   <div className='absolute bottom-0 py-5 left-0 pl-5 bg-[rgba(0,0,0,0.4)] w-full h-[30%] text-[#C2CACD]'>
+                   <div className='absolute bottom-0 py-5 left-0 pl-5 bg-[rgba(0,0,0,0.4)] w-full h-[30%] text-[#e4eaec]'>
                      <div className="font-bold pb-1">{item.HOTEL_NM}</div>
                      <div>{item.ADRES}</div>              
                    </div>

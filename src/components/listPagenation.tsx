@@ -5,6 +5,7 @@ const ListPagination = ({
   blockNum,
   setBlockNum,
   counts,
+  moveScroll
 }: {
   limit: number;
   page: number;
@@ -12,7 +13,9 @@ const ListPagination = ({
   blockNum: number;
   setBlockNum: Function;
   counts: number;
+  moveScroll: Function;
 }): any => {
+  // 기존 배열을 복사한 새로운 배열을 만든다
   const createArr = (n: number) => {
     const iArr: number[] = new Array(n);
     for (let i = 0; i < n; i++) iArr[i] = i + 1;
@@ -78,6 +81,7 @@ const ListPagination = ({
             key={n}
             onClick={() => {
               setPage(n);
+              moveScroll();
             }}
           >
             {n}

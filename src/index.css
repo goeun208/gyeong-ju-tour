@@ -7,8 +7,13 @@
 	src: url(../public/assets/fonts/Diphylleia-Regular.ttf);
 }
 
+@font-face {
+	font-family: "NotoSans";
+	src: url(../public/assets/fonts/NotoSansKR-Regular.otf);
+}
+
 body {
-    font-family: "Diphylleia";
+    font-family: "NotoSans";
 	/* margin: 0; */
 	/* overflow: hidden; */
 }

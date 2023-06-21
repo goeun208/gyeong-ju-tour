@@ -23,6 +23,7 @@ const NightAttractions = ({element2}: any) => {
         , {
           params: {
             ServiceKey: process.env.REACT_APP_API_KEY,
+            numOfRows: 8,
           },}
         )
         .then((res) => {
