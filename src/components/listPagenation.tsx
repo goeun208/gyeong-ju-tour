@@ -14,7 +14,6 @@ const ListPagination = ({
   counts: number;
 }): any => {
   const createArr = (n: number) => {
-    console.log('n', n, limit, counts)
     const iArr: number[] = new Array(n);
     for (let i = 0; i < n; i++) iArr[i] = i + 1;
     return iArr;
@@ -24,9 +23,7 @@ const ListPagination = ({
   const pageLimit = 8; // 보여줄 페이지네이션 개수
 
   const totalPage: number = Math.ceil(counts / limit); // 전체 / 갯수 => 3개 페이지
-  console.log( limit, counts, totalPage);
   const nArr = createArr(Number(totalPage)); // nArr 함수에 전체 페이지의 개수를 배열로 담는다.
-  console.log(nArr, 'nArr');
 
   const firstPage = () => {
     setPage(1);

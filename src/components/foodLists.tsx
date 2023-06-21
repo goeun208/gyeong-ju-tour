@@ -77,11 +77,11 @@ const FoodLists = ({ element1 }: any) => {
       <div className="w-[22.5rem] md:w-[45rem] xl:w-[90rem] mx-auto my-0 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 pb-20">
         {copyData.map((item: any, index: number) => (
             index < limit &&
-          <div className="bg-white w-[21rem] h-[19rem] rounded-lg mx-auto p-6 relative hover:bg-cyan-50 cursor-pointer" key={index}>
+          <div className="bg-white w-[21rem] h-[19rem] rounded-lg mx-auto p-5 relative hover:bg-cyan-50 cursor-pointer" key={index}>
             <div className="text-[1.25rem] font-semibold bg-[#aadce8] p-1 rounded">{item.BSSH_NM}</div>
             <div className="text-[0.9rem] font-semibold pt-2">{item.ADRES}</div>
             <div className="text-[0.9rem]">{item.MBTLNUM}</div>
-            <img src={foods[index]} alt="food" className="rounded-full absolute bottom-6 left-10 w-[15rem] mt-[1rem]" />
+            <img src={foods[index]} alt="food" className="rounded-full absolute bottom-6 left-10 w-[15rem] mt-[1rem]" loading="lazy" decoding="async" />
           </div>
         ))}
       </div>
