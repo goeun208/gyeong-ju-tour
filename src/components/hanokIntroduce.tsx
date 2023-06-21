@@ -47,7 +47,7 @@ const HanokIntroduce = ({element3}: any) => {
            <h1 className='text-center text-[1.125rem] xs:text-[1.5rem] md:text-[2.25rem] mb-5 md:mb-20 font-semibold relative'>한옥만의 멋과 아름다움을 느껴보세요.</h1>
              <div className='md:w-[45rem] xl:w-[90rem] mx-auto my-0 flex overflow-auto relative'>
              {data.map((item:any, index:number) => (
-               <div key={index} className='w-[21.5rem] md:w-[29.5rem] h-[25.5rem] bg-zinc-200 text-[1.125rem] text-black ml-4 md:mx-2 rounded cursor-pointer'>
+               <div key={index} className='w-[21.5rem] md:w-[29.5rem] h-[25.5rem] bg-zinc-200 text-[1.125rem] text-black ml-4 my-2 md:mx-2 rounded cursor-pointer'>
                  <div className=' w-[21.5rem] md:w-[29.5rem] h-[25.5rem] mx-auto rounded relative'>
                    <img src={hanok[index]} alt="hanok" className='absolute w-full h-full top-0 left-0 z-0 rounded-t object-cover' loading='lazy' decoding='async'/>
                    <div className='absolute bottom-0 py-5 left-0 pl-5 bg-[rgba(0,0,0,0.4)] w-full h-[30%] text-[#C2CACD]'>
