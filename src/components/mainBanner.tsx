@@ -1,5 +1,5 @@
 import { useScrollFadeIn } from "../hooks/useControlFadeIn";
-import background from "../images/background.jpg"
+import background from "../images/background.webp"
 
 const MainBanner = ({element}: any) => {
 

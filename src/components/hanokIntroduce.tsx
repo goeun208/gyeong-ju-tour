@@ -1,13 +1,13 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import hanok1 from "../images/hanok1.jpg";
-import hanok2 from "../images/hanok2.jpg";
+import hanok1 from "../images/hanok1.webp";
+import hanok2 from "../images/hanok2.webp";
 import hanok3 from "../images/hanok3.webp";
-import hanok4 from "../images/hanok4.jpg";
-import hanok5 from "../images/hanok5.jpg";
-import hanok6 from "../images/hanok6.jpg";
-import hanok7 from "../images/hanok7.jpg";
-import back2 from "../images/back2.jpg";
+import hanok4 from "../images/hanok4.webp";
+import hanok5 from "../images/hanok5.webp";
+import hanok6 from "../images/hanok6.webp";
+import hanok7 from "../images/hanok7.webp";
+import back2 from "../images/back2.webp";
 
 const HanokIntroduce = ({ element3 }: any) => {
   const [data, setData] = useState<Array<any>>([]);
@@ -61,9 +61,9 @@ const HanokIntroduce = ({ element3 }: any) => {
           {data.map((item: any, index: number) => (
             <div
               key={index}
-              className="w-[21.5rem] md:w-[29.5rem] h-[25.5rem] bg-zinc-200 text-[1.125rem] text-black ml-4 my-2 md:mx-2 rounded cursor-pointer"
+              className="w-[21.5rem] md:w-[29rem] h-[25.5rem] bg-zinc-200 text-[1.125rem] text-black ml-4 my-2 md:mx-2 rounded cursor-pointer"
             >
-              <div className=" w-[21.5rem] md:w-[29.5rem] h-[25.5rem] mx-auto rounded relative">
+              <div className=" w-[21.5rem] md:w-[29rem] h-[25.5rem] mx-auto rounded relative">
                 <img
                   src={hanok[index]}
                   alt="hanok"
