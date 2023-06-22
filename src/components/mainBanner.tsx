@@ -1,4 +1,3 @@
-import { MouseEventHandler, RefObject } from "react";
 import { useScrollFadeIn } from "../hooks/useControlFadeIn";
 import background from "../images/background.jpg"
 

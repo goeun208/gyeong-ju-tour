@@ -5,7 +5,7 @@ const ListPagination = ({
   blockNum,
   setBlockNum,
   counts,
-  moveScroll
+  moveScroll,
 }: {
   limit: number;
   page: number;
@@ -22,8 +22,7 @@ const ListPagination = ({
     return iArr;
   };
 
-  
-  const pageLimit = 8; // 보여줄 페이지네이션 개수
+  const pageLimit: number = 8; // 보여줄 페이지네이션 개수
 
   const totalPage: number = Math.ceil(counts / limit); // 전체 / 갯수 => 3개 페이지
   const nArr = createArr(Number(totalPage)); // nArr 함수에 전체 페이지의 개수를 배열로 담는다.
@@ -64,20 +63,23 @@ const ListPagination = ({
         onClick={() => {
           firstPage();
         }}
-      >&lt;&lt;</button>
+      >
+        &lt;&lt;
+      </button>
       <button
         className="moveToPreviousPage"
         onClick={() => {
           prevPage();
         }}
-        disabled={page === 1}
-      >&lt;</button>
+      >
+        &lt;
+      </button>
 
       <div>
         {nArr.map((n: number) => (
           <button
             className="hover:bg-[#7BB4C3] px-2 rounded-full font-sans"
-            style={{backgroundColor: page === n ? '#eee': ''}}
+            style={{ backgroundColor: page === n ? "#eee" : "" }}
             key={n}
             onClick={() => {
               setPage(n);
@@ -92,7 +94,6 @@ const ListPagination = ({
         onClick={() => {
           nextPage();
         }}
-        disabled={page === totalPage}
       >
         &gt;
       </button>
@@ -100,7 +101,8 @@ const ListPagination = ({
         onClick={() => {
           lastPage();
         }}
-      >&gt;&gt;
+      >
+        &gt;&gt;
       </button>
     </div>
   );
