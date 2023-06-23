@@ -60,6 +60,7 @@ const NightAttractions = ({ element2 }: any) => {
           className="absolute top-0 left-0 w-full h-full object-cover object-center opacity-30"
           loading="lazy"
           decoding="async"
+          role="presentation"
         />
         <p className="text-center pt-20 text-white relative">*********</p>
         <h1 className="text-center text-white text-[1.125rem] xs:text-[1.5rem] md:text-[2.25rem] mb-5 md:mb-20 font-semibold relative">
