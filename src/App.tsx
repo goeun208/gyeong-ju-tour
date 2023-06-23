@@ -22,11 +22,13 @@ function App() {
         className="fixed bottom-5 right-5 w-[3rem] h-[3rem] md:w-[4rem] md:h-[4rem] z-20 rounded-full bg-[rgba(255,255,255,0.4)] cursor-pointer"
         onClick={scrollToTop.onMoveToElement}
       >
-        <img
+        <div className="w-[2rem] md:w-[3rem] mx-auto pt-[0.4rem]">
+          <img
           src={arrow}
-          alt="^"
-          className="w-[2rem] md:w-[3rem] mx-auto pt-[0.4rem]"
+          alt="up"
         />
+        </div>
+        
       </div>
     </div>
   );
